@@ -6,18 +6,27 @@
 
 ## Install
 
+On Glitch simply add glitchup through "Add package" to `package.json` in the editor.
+
+[![glitch up][glitchup-gif]]
+
+or if you are command lining.
+
 ```bash
 npm i -S glitchup
 ```
 
 ## Usage
 
-glitchup in it's current form only needs for you to `require` and call it from within your project. By default it will use the current Glitch project name and use node-fetch will GET `/` project every four minutes.
+glitchup in it's current form only needs for you to `require` and call it from within your project. By default it will use the current Glitch project name and use node-fetch to GET `/` every four minutes.
 
 ```javascript
 const glitchup = require('glitchup');
 glitchup();
 ```
+## Please note.
+
+Glitch is currently a free service offered by Fog Creek Software. `glitchup` is not supported by, nor is it associated with, Fog Creek Software. Not every container running on Glitch needs to stay awake at all times. Please use this responsibly - those Fog Creek-er's are alright!
 
 ## License
 
@@ -25,3 +34,4 @@ glitchup();
 
 [npm-image]: https://img.shields.io/npm/v/glitchup.svg
 [npm-url]: https://npmjs.org/package/glitchup
+[glitchup-gif]:  https://raw.githubusercontent.com/shindakun/glitchup/master/glitchup.gif
