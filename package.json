@@ -11,6 +11,9 @@
   "dependencies": {
     "node-fetch": "^1.6.3"
   },
+  "repository": {
+    "url": "https://github.com/shindakun/glitchup"
+  },
   "engines": {
     "node": "6.9.x"
   }
