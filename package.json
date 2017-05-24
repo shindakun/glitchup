@@ -1,6 +1,6 @@
 {
   "name": "glitchup",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Keep Glitch Up?",
   "main": "index.js",
   "scripts": {
