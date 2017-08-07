@@ -24,6 +24,13 @@ glitchup in it's current form only needs for you to `require` and call it from w
 const glitchup = require('glitchup');
 glitchup();
 ```
+
+You can add a path to the url that glitchup will GET by passing it into the function. 
+```javascript
+const glitchup = require('glitchup');
+glitchup('/cron/');
+```
+
 ## Please note.
 
 Glitch is currently a free service offered by Fog Creek Software. `glitchup` is not supported by, nor is it associated with, Fog Creek Software. Not every container running on Glitch needs to stay awake at all times. Please use this responsibly - those Fog Creek-er's are alright!
